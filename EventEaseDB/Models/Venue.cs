@@ -1,12 +1,22 @@
-﻿namespace EventEaseDB.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EventEaseDB.Models
 {
     public class Venue
     {
         public int VenueId { get; set; }
+
+        [Required]
         public string VenueName { get; set; }
+
+        [Required]
         public string Location { get; set; }
+
+        [Required]
+        [Range(1, int.MaxValue, ErrorMessage = "Capacity must be greater than 0")]
         public int Capacity { get; set; }
+
+        public string? ImageUrl { get; set; }
         // Navigation property for related events
-        public List<Event> Events { get; set; }
     }
 }

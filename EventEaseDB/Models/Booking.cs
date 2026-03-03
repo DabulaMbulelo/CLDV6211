@@ -1,15 +1,20 @@
-﻿namespace EventEaseDB.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace EventEaseDB.Models
 {
     public class Booking
     {
         public int BookingId { get; set; }
 
+        [Required]
         public int EventId { get; set; }
 
-        public int VenueId { get; set; }
-        
-        public DateTime BookingDate { get; set; }
+        public Event? Event { get; set; }
 
-        public List<Event> Events { get; set; } = new();
+        [Required]
+        public int VenueId { get; set; }
+        public Venue? Venue { get; set; }
+
+        public DateTime BookingDate { get; set; } = DateTime.Now;
     }
 }
