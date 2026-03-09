@@ -16,6 +16,9 @@
 				@Html.DisplayNameFor(model => model.BookingId)
 			</th>
 			<th>
+				@Html.DisplayNameFor(model => model.EventId)
+			</th>
+			<th>
 				@Html.DisplayNameFor(model => model.Event)
 			</th>
 			<th>
@@ -33,6 +36,9 @@
 			<tr>
 				<td>
 					@Html.DisplayFor(modelItem => item.BookingId)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.EventId)
 				</td>
 				<td>
 					@Html.DisplayFor(modelItem => item.Event.EventName)

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\venue\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\venue\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,79 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAiwDAAAAABAAAAAAAAAA==",
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAqwG0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T19:49:35.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Booking\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Booking\\Create.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-03T19:38:16.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Booking\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Booking\\Index.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-03T19:26:42.155Z",
+              "WhenOpened": "2026-03-09T06:39:12.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Venue\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Venue\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Venue\\Create.cshtml",
-              "RelativeToolTip": "Views\\Venue\\Create.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAPAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Booking\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Booking\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-03T18:17:08.557Z",
+              "WhenOpened": "2026-03-09T06:25:27.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VenueController.cs",
-              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\VenueController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
-              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\VenueController.cs",
-              "RelativeToolTip": "Controllers\\VenueController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAG8AAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T17:45:44.896Z",
+              "WhenOpened": "2026-03-09T06:12:33.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Venue.cs",
-              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Models\\Venue.cs",
-              "RelativeDocumentMoniker": "Models\\Venue.cs",
-              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Models\\Venue.cs",
-              "RelativeToolTip": "Models\\Venue.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAABPAAAAAAAAAA==",
+              "Title": "VenueController.cs",
+              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\VenueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
+              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Controllers\\VenueController.cs",
+              "RelativeToolTip": "Controllers\\VenueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T17:38:25.051Z",
+              "WhenOpened": "2026-03-08T18:55:42.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Venue\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Venue\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Venue\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-08T21:59:16.558Z",
               "EditorCaption": ""
             }
           ]

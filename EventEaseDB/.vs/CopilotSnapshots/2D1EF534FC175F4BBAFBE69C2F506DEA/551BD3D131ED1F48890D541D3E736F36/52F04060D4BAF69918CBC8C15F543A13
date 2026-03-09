@@ -1,6 +1,5 @@
 ﻿using EventEaseDB.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace EventEaseDB.Controllers
@@ -107,9 +106,6 @@ namespace EventEaseDB.Controllers
             {
                 return NotFound();
             }
-            // populate select lists for the edit form
-            ViewBag.EventId = new SelectList(_context.Event.ToList(), "EventId", "EventName", booking.EventId);
-            ViewBag.VenueId = new SelectList(_context.Venue.ToList(), "VenueId", "VenueName", booking.VenueId);
             return View(booking);
         }
 
@@ -142,9 +138,6 @@ namespace EventEaseDB.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            // repopulate select lists when returning view due to validation errors
-            ViewBag.EventId = new SelectList(_context.Event.ToList(), "EventId", "EventName", booking.EventId);
-            ViewBag.VenueId = new SelectList(_context.Venue.ToList(), "VenueId", "VenueName", booking.VenueId);
             return View(booking);
         }
     }

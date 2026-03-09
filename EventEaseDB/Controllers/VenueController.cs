@@ -32,5 +32,56 @@ namespace EventEaseDB.Controllers
             }
             return View(venue);
         }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var venue = await _context.Venue
+                .FirstOrDefaultAsync(m => m.VenueId == id);
+
+            if (venue == null)
+            {
+                return NotFound();
+            }
+
+            return View(venue);
+        }
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var venue = await _context.Venue.FirstOrDefaultAsync(m => m.VenueId == id);
+            if (venue == null) return NotFound();
+
+            var hasBookings = await _context.Booking.AnyAsync(b => b.VenueId == id);
+            ViewData["IsBooked"] = hasBookings;
+
+            return View(venue);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var venue = await _context.Venue.FindAsync(id);
+            if (venue == null) return NotFound();
+
+            var hasBookings = await _context.Booking.AnyAsync(b => b.VenueId == id);
+            if (hasBookings)
+            {
+                ModelState.AddModelError("", "Cannot delete this venue because it has associated bookings.");
+                var reloaded = await _context.Venue.FirstOrDefaultAsync(m => m.VenueId == id);
+                ViewData["IsBooked"] = true;
+                return View("Delete", reloaded ?? venue);
+            }
+
+            _context.Venue.Remove(venue);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
