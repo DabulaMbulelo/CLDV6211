@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventEaseDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ea7d174a5d29e69aff1ea2105cf9b06ae39cca6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cabdee56a510e381f7cdc5e1b84ea468a03e6cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventEaseDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventEaseDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

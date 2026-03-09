@@ -13,7 +13,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #000000;
-            color: #ffffff;
+            color: #000000;
         }
 
         .navbar {
@@ -22,16 +22,13 @@
 
         .navbar-brand {
             font-weight: bold;
-            color: #ffffff;
+            color: white;
         }
 
         .jumbotron {
             background-image: url('https://source.unsplash.com/1600x900/?azure,cloud');
             background-size: cover;
-            /* dark overlay so the image stays visible but text is readable */
-            background-color: rgba(0,0,0,0.6);
-            background-blend-mode: darken;
-            color: #ffffff;
+            color: black;
         }
 
             .jumbotron h1 {
@@ -40,14 +37,13 @@
             }
 
 
-            .jumbotron p {
+            jumbotron p {
                 font-size: 1.5rem;
-                color: #e6e6e6;
             }
 
         .btn-azure {
             background-color: #E6A100;
-            color: #ffffff;
+            color: #453100;
             border: none;
         }
 

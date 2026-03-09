@@ -83,5 +83,40 @@ namespace EventEaseDB.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        public bool VenueExists(int id)
+        {
+            return _context.Venue.Any(e => e.VenueId == id);
+        }
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null) return NotFound();
+            var venue = await _context.Venue.FindAsync(id);
+            if (venue == null) return NotFound();
+            return View(venue);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Venue venue)
+        {
+            if (id != venue.VenueId) return NotFound();
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(venue);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!VenueExists(venue.VenueId)) return NotFound();
+                    else throw;
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(venue);
+        }
     }
 }
