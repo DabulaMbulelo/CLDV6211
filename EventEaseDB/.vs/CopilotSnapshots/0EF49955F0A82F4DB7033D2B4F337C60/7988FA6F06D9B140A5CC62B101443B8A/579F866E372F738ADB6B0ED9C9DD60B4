@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="~/EventEaseDB.styles.css" asp-append-version="true" />
 
 	<style>
-		/* Set the background image for the entire body and ensure text is readable */
 		body {
 			background-image: url('/images/Spendatius cover - brown.png');
 			font-family: Arial, sans-serif;
@@ -25,11 +24,6 @@
 			border-color: #2E1B00;
 		}
 
-		/* footer copyright text color (overrides Bootstrap's text-muted) */
-		.footer .text-custom {
-			color: #E6A100 !important; /* change this hex to pick a different colour */
-		}
-		/* Set the navbar background color and link colors */
 			a:hover, .nav-link:hover, .navbar-brand:hover, .footer a:hover {
 				color: #E6A100; /* gold */
 				text-shadow: 0 0 8px rgba(230,161,0,0.9);

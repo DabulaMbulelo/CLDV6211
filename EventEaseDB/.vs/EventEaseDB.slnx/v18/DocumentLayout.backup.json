@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DEF20E80-B668-E355-B68F-CABA0941D674}|EventEaseDB.csproj|c:\\users\\spend\\desktop\\cldv6211\\eventeasedb\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,33 +36,33 @@
               "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
               "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Booking\\Index.cshtml",
               "RelativeToolTip": "Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-09T18:10:00.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-09T17:55:04.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Spend\\Desktop\\CLDV6211\\EventEaseDB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-09T17:15:29.762Z",
               "EditorCaption": ""
